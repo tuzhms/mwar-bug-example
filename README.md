@@ -1,4 +1,4 @@
-#When it is necessary to build more than one WAR archive at the same time, it fails to set different web.xml
+# When it is necessary to build more than one WAR archive at the same time, it fails to set different web.xml
 In an assembly, I need to create 2 WAR archives with different web.xml files at a time.
 For this I use the following plugin setting:
 ```xml
