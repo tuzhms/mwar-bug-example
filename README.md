@@ -1,4 +1,6 @@
 # When it is necessary to build more than one WAR archive at the same time, it fails to set different web.xml
+[![JIRA issue](https://img.shields.io/jira/issue/MWAR-440?baseUrl=https%3A%2F%2Fissues.apache.org%2Fjira)](https://issues.apache.org/jira/browse/MWAR-440)
+
 In an assembly, I need to create 2 WAR archives with different web.xml files at a time.
 For this I use the following plugin setting:
 ```xml
