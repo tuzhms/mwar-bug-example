@@ -67,6 +67,7 @@
                                 <skip>false</skip>
                                 <webXml>src/main/webapp/web1.xml</webXml>
                                 <warName>web1</warName>
+                                <webappDirectory>${project.build.directory}/web1</webappDirectory>
                             </configuration>
                         </execution>
                         <execution>
@@ -79,6 +80,7 @@
                                 <skip>false</skip>
                                 <webXml>src/main/webapp/web2.xml</webXml>
                                 <warName>web2</warName>
+                                <webappDirectory>${project.build.directory}/web2</webappDirectory>
                             </configuration>
                         </execution>
                     </executions>
